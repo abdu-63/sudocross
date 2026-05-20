@@ -6,7 +6,6 @@ export interface SudokuCell {
   value: number | null;
   solutionValue: number;
   isGiven: boolean;
-  isNotes: boolean;
   notes: number[];
   hasError: boolean;
 }
